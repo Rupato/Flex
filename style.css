@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    background: white;
+  }
+  
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    height:250px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+
+  .one{
+        background: red;
+  }
+
+  .two{
+      background: yellow;
+  }
+
+  .three{
+      background: green;
+  }
+
+  .four{
+      background: blue;
+  }
+
+  .five{
+      background: orangered;
+  }
+
